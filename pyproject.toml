@@ -1,0 +1,15 @@
+[project]
+name = "ai-trading-agent"
+version = "0.1.0"
+description = "AI trading signal agent with LangGraph, tool calling, RAG, and backtesting evaluation"
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.3",
+    "langchain-anthropic>=0.3",
+    "langchain-core>=0.3",
+    "yfinance>=0.2",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "chromadb>=0.5",
+    "python-dotenv>=1.0",
+]
